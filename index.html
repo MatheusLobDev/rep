@@ -1,462 +1,257 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Engenheiro de software, estudante de Ciência da Computação na UFPB e pesquisador em visão computacional."
-    />
-    <meta name="theme-color" content="#0d1418" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content="Matheus Lobato" />
-    <meta property="og:title" content="Matheus Lobato | Engenheiro de Software" />
-    <meta
-      property="og:description"
-      content="Software claro, confiável e pronto para evoluir. Conheça minha experiência, projetos e competências."
-    />
-    <meta property="og:url" content="https://matheuslobdev.github.io/" />
-    <meta property="og:image" content="https://matheuslobdev.github.io/assets/og.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Matheus Lobato | Engenheiro de Software" />
-    <meta
-      name="twitter:description"
-      content="Software claro, confiável e pronto para evoluir."
-    />
-    <meta name="twitter:image" content="https://matheuslobdev.github.io/assets/og.png" />
-    <link rel="icon" href="assets/matheus-lobato.jpg" type="image/jpeg" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Matheus Lobato | Engenheiro de Software</title>
-  </head>
-  <body>
-    <main>
-      <section id="top" class="hero">
-        <header class="site-header">
-          <nav class="nav container" aria-label="Navegação principal">
-            <a class="brand" href="#top" aria-label="Voltar ao início">
-              <span class="brand-mark">ML</span>
-              <span class="brand-name">Matheus Lobato</span>
-            </a>
-            <div class="nav-links">
-              <a href="#sobre">Perfil</a>
-              <a href="#experiencia">Experiência</a>
-              <a href="#projetos">Projetos</a>
-              <a href="#competencias">Competências</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matheus Lobato | Engenharia de Software</title>
+  <meta name="description" content="Portfólio de Matheus Lobato, engenheiro de software júnior no Pix do Milhão e estudante de Ciência da Computação na UFPB.">
+  <meta name="theme-color" content="#101826">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Matheus Lobato">
+  <meta property="og:title" content="Matheus Lobato | Engenharia de Software">
+  <meta property="og:description" content="Experiência em APIs, integrações, acessibilidade e ensino de programação competitiva.">
+  <meta property="og:url" content="https://matheuslobdev.github.io/rep/">
+  <meta property="og:image" content="https://matheuslobdev.github.io/rep/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://matheuslobdev.github.io/rep/">
+  <link rel="icon" href="assets/matheus-lobato.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Navegação principal">
+      <a class="brand" href="#top" aria-label="Matheus Lobato, início">ML<span>.</span></a>
+      <div class="nav-links">
+        <a href="#projetos">Projetos</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#competencias">Competências</a>
+      </div>
+      <a class="nav-contact" href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="sobre" aria-labelledby="nome">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Engenharia de Software</p>
+          <h1 id="nome">Matheus<br>Lobato<span>.</span></h1>
+          <p class="hero-intro">Sou engenheiro de software júnior no Pix do Milhão, desenvolvedor full-stack no LAVID e estudante de Ciência da Computação na UFPB.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Ver projetos</a>
+            <a class="button button-outline" href="assets/Curriculo_Matheus_Lobato_Voluntariado.pdf" download="Curriculo_Matheus_Lobato.pdf">Baixar currículo <span class="file-type">PDF</span></a>
+          </div>
+        </div>
+
+        <figure class="portrait">
+          <div class="portrait-image">
+            <img src="assets/matheus-lobato.jpg" width="1200" height="1500" alt="Retrato de Matheus Lobato" fetchpriority="high">
+          </div>
+          <figcaption><span>João Pessoa, PB</span><span>Ciência da Computação · UFPB</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos" aria-labelledby="projetos-titulo">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="projetos-titulo">Projetos selecionados</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-feature">
+            <div class="project-body">
+              <p class="eyebrow">Pix do Milhão</p>
+              <h3>Plataforma de emissão de NFS-e</h3>
+              <p>Resolvi um gargalo crítico na emissão fiscal e desenvolvi uma plataforma de notas fiscais de serviço integrada diretamente às APIs tributárias municipais.</p>
+              <ul class="tags" aria-label="Tecnologias">
+                <li>Python</li><li>FastAPI</li><li>APIs REST</li>
+              </ul>
             </div>
-            <a class="header-contact" href="mailto:matheus_lobato_macedo@hotmail.com">
-              Entrar em contato
-            </a>
-          </nav>
-        </header>
-
-        <div class="hero-content container">
-          <div class="hero-copy">
-            <div class="availability">
-              <span class="status-dot" aria-hidden="true"></span>
-              Disponível para oportunidades
+            <div class="project-metric">
+              <strong>1,5<span> mi+</span></strong>
+              <span class="metric-label">notas fiscais de serviço<br>emitidas por mês</span>
             </div>
-            <p class="kicker amber">Engenharia de software · Produto digital · Pesquisa aplicada</p>
-            <h1>Matheus<br />Lobato</h1>
-            <p class="hero-lead">
-              Transformo problemas complexos em software claro, confiável e pronto para evoluir.
-            </p>
-            <p class="hero-description">
-              Desenvolvedor e estudante de Ciência da Computação na UFPB, atuando em produtos web,
-              engenharia de software e pesquisa com visão computacional.
-            </p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="#projetos">Conhecer meu trabalho</a>
-              <a class="button button-secondary" href="assets/Curriculo_Matheus_Lobato_Voluntariado.pdf" download>
-                Baixar currículo
-              </a>
-            </div>
-          </div>
+          </article>
 
-          <div class="portrait-wrap">
-            <div class="portrait-accent" aria-hidden="true"></div>
-            <figure class="portrait">
-              <img src="assets/matheus-lobato.jpg" alt="Retrato de Matheus Lobato" />
-              <figcaption class="portrait-facts">
-                <div><strong>UFPB</strong><span>Ciência da Computação</span></div>
-                <div><strong>3 frentes</strong><span>Produto, engenharia e pesquisa</span></div>
-                <div><strong>João Pessoa</strong><span>Paraíba, Brasil</span></div>
-                <div><strong>Inglês</strong><span>Nível avançado</span></div>
-              </figcaption>
-            </figure>
-          </div>
+          <article class="project-card">
+            <p class="eyebrow">Pix do Milhão</p>
+            <h3>Agregador de mensagens</h3>
+            <p>Desenvolvi uma plataforma com roteamento automatizado, processamento assíncrono e acompanhamento de entregas.</p>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>FastAPI</li><li>PostgreSQL</li><li>Redis Streams</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <p class="eyebrow">LAVID</p>
+            <h3>Autism Guide</h3>
+            <p>Desenvolvo interfaces, funcionalidades e fluxos para avaliar e classificar aplicativos por critérios de acessibilidade e usabilidade para pessoas com TEA.</p>
+            <ul class="tags" aria-label="Áreas de atuação">
+              <li>Full-stack</li><li>Acessibilidade digital</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <p class="eyebrow">SisEnex · Lumo Lab</p>
+            <h3>Avaliação de projetos de extensão</h3>
+            <p>Refatorei o back-end e otimizei o tratamento de dados de uma plataforma que apoia a avaliação de centenas de projetos de extensão da UFPB por ano.</p>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>Node.js</li><li>PostgreSQL</li><li>GraphQL</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <p class="eyebrow">LabTEVE</p>
+            <h3>Visão computacional em VR</h3>
+            <p>Estudei modelos de detecção e rastreamento para alinhar objetos físicos a representações virtuais em tempo real em dispositivos Meta Quest.</p>
+            <ul class="tags" aria-label="Áreas de pesquisa">
+              <li>Visão computacional</li><li>Realidade virtual</li>
+            </ul>
+          </article>
         </div>
-        <span class="hero-line hero-line-left" aria-hidden="true"></span>
-        <span class="hero-line hero-line-right" aria-hidden="true"></span>
-      </section>
+      </div>
+    </section>
 
-      <section class="signal-band" aria-label="Áreas de atuação">
-        <div class="signals container">
-          <div><strong>Engenharia de software</strong><span>Visão completa do produto</span></div>
-          <div><strong>Sistemas e APIs</strong><span>Dados, integrações e escala</span></div>
-          <div><strong>Pesquisa</strong><span>Visão computacional e VR</span></div>
-          <div><strong>Algoritmos</strong><span>Premiações em competições</span></div>
+    <section class="section experience" id="experiencia" aria-labelledby="experiencia-titulo">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="experiencia-titulo">Experiência</h2>
         </div>
-      </section>
-
-      <section id="sobre" class="section surface-warm">
-        <div class="container">
-          <div class="section-heading">
-            <p class="kicker mint-dark">01 · Perfil</p>
-            <h2>Código com contexto. Técnica com propósito.</h2>
-          </div>
-          <div class="profile-grid section-content">
-            <p class="profile-statement">
-              Gosto de entender o problema por inteiro antes de escolher a solução.
-            </p>
-            <div class="body-copy">
-              <p>
-                Minha trajetória combina desenvolvimento de software, pesquisa aplicada e programação
-                competitiva. Essa mistura me ensinou a investigar com profundidade, estruturar ideias e
-                transformar requisitos complexos em entregas compreensíveis.
-              </p>
-              <p>
-                Hoje contribuo em projetos reais dentro da UFPB, alternando entre engenharia de software,
-                interfaces web e experimentos com visão computacional. Procuro equipes em que eu possa
-                somar com curiosidade, responsabilidade e evolução constante.
-              </p>
-              <div class="languages">
-                <span>Português nativo</span>
-                <span>Inglês avançado</span>
-                <span>Espanhol intermediário</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="experiencia" class="section surface-white">
-        <div class="container">
-          <div class="section-heading">
-            <p class="kicker mint-dark">02 · Experiência</p>
-            <h2>Onde venho gerando impacto</h2>
-          </div>
-          <div class="experience-list section-content">
-            <article class="experience-row">
-              <p class="period">Ago 2026 · Atual</p>
-              <div>
-                <h3>Software Engineer Jr.</h3>
-                <p class="company">Pix do Milhão</p>
-              </div>
-              <div>
-                <p class="description">
-                  Desenvolvi páginas responsivas para campanhas promocionais de grande alcance, criando pontos
-                  de entrada por QR code para parceiros e artistas com mais de um milhão de seguidores. Também
-                  implementei um agregador de mensagens que recebeu, validou e roteou eventos de forma assíncrona,
-                  evitando duplicidades, acompanhando entregas e aplicando regras de acesso por perfil.
-                </p>
-                <div class="tags">
-                  <span>Python e FastAPI</span>
-                  <span>PostgreSQL e Redis Streams</span>
-                  <span>Next.js e TypeScript</span>
-                  <span>Brevo e n8n</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="experience-row">
-              <p class="period">Jun 2026 · Atual</p>
-              <div>
-                <h3>Desenvolvedor Full-Stack</h3>
-                <p class="company">LAVID · Laboratório de Aplicações de Vídeo Digital</p>
-              </div>
-              <div>
-                <p class="description">
-                  Desenvolvimento do Autism Guide, uma aplicação web que avalia ferramentas digitais por
-                  critérios de acessibilidade e usabilidade para pessoas com TEA.
-                </p>
-                <div class="tags">
-                  <span>Produto com impacto social</span>
-                  <span>Interfaces e fluxos de avaliação</span>
-                  <span>Trabalho full-stack</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="experience-row">
-              <p class="period">Fev 2026 · Atual</p>
-              <div>
-                <h3>Engenheiro de Software</h3>
-                <p class="company">SisEnex · Lumo Lab</p>
-              </div>
-              <div>
-                <p class="description">
-                  Evolução da arquitetura de uma plataforma acadêmica usada na avaliação de projetos de
-                  extensão da UFPB, com foco em escalabilidade e manutenção.
-                </p>
-                <div class="tags">
-                  <span>Node.js e TypeScript</span>
-                  <span>PostgreSQL e GraphQL</span>
-                  <span>APIs e regras de negócio</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="experience-row">
-              <p class="period">Ago 2025 · Ago 2026</p>
-              <div>
-                <h3>Pesquisador em Visão Computacional e VR</h3>
-                <p class="company">LabTEVE</p>
-              </div>
-              <div>
-                <p class="description">
-                  Pesquisa aplicada em detecção e rastreamento de objetos para sincronizar ambientes reais
-                  e virtuais em dispositivos Meta Quest.
-                </p>
-                <div class="tags">
-                  <span>Computer Vision</span>
-                  <span>Realidade virtual</span>
-                  <span>Prototipação e experimentos</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="experience-row">
-              <p class="period">Ago 2026 · Atual</p>
-              <div>
-                <h3>Membro do time de dados</h3>
-                <p class="company">Voluntário · ONG Tocando em Frente</p>
-              </div>
-              <div>
-                <p class="description">
-                  Atuação voluntária em uma organização liderada por jovens que amplia oportunidades
-                  educacionais para estudantes de escolas públicas em comunidades rurais e regiões pouco atendidas.
-                </p>
-                <div class="tags">
-                  <span>Impacto educacional</span>
-                  <span>Dados para transformação social</span>
-                  <span>Trabalho voluntário</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="experience-row">
-              <p class="period">Out 2025 · Atual</p>
-              <div>
-                <h3>Professor de Programação Competitiva</h3>
-                <p class="company">PACODE · UFPB</p>
-              </div>
-              <div>
-                <p class="description">
-                  Ensino de algoritmos, estruturas de dados, análise de complexidade e estratégias de
-                  resolução de problemas para estudantes.
-                </p>
-                <div class="tags">
-                  <span>Mentoria técnica</span>
-                  <span>Comunicação</span>
-                  <span>Raciocínio algorítmico</span>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="projetos" class="section surface-dark">
-        <div class="container">
-          <div class="section-heading heading-dark">
-            <p class="kicker mint">03 · Projetos selecionados</p>
-            <h2>Problemas reais, soluções que evoluem</h2>
-          </div>
-          <div class="project-grid section-content">
-            <article class="project-card">
-              <div class="project-top">
-                <span class="project-number mint">01</span>
-                <p>Impacto social</p>
-              </div>
-              <h3>Autism Guide</h3>
-              <p class="project-description">
-                Uma aplicação que ajuda a analisar recursos digitais sob a perspectiva da acessibilidade
-                para pessoas com Transtorno do Espectro Autista.
-              </p>
-              <div class="contribution">
-                <span>Minha contribuição</span>
-                <p>
-                  Atuação em engenharia de software, estruturando interfaces, fluxos de avaliação e
-                  funcionalidades orientadas a critérios técnicos de acessibilidade.
-                </p>
-              </div>
-              <div class="tags tags-dark">
-                <span>React</span><span>Node.js</span><span>Acessibilidade</span><span>UX</span>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-top">
-                <span class="project-number amber">02</span>
-                <p>Escala acadêmica</p>
-              </div>
-              <h3>SisEnex</h3>
-              <p class="project-description">
-                Plataforma que apoia a avaliação de projetos de extensão da UFPB e precisa permanecer
-                organizada, estável e simples de evoluir.
-              </p>
-              <div class="contribution">
-                <span>Minha contribuição</span>
-                <p>
-                  Refatoração de arquitetura, criação de APIs, modelagem de dados e manutenção das regras
-                  de negócio e dos serviços da plataforma.
-                </p>
-              </div>
-              <div class="tags tags-dark">
-                <span>Node.js</span><span>TypeScript</span><span>PostgreSQL</span><span>GraphQL</span>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-top">
-                <span class="project-number white">03</span>
-                <p>Pesquisa aplicada</p>
-              </div>
-              <h3>Computer Vision + VR</h3>
-              <p class="project-description">
-                Investigação sobre alinhamento entre objetos físicos e representações virtuais para
-                experiências mais precisas em realidade virtual.
-              </p>
-              <div class="contribution">
-                <span>Minha contribuição</span>
-                <p>
-                  Estudo de modelos de detecção e rastreamento, prototipação para Meta Quest e análise de
-                  consistência espacial em tempo real.
-                </p>
-              </div>
-              <div class="tags tags-dark">
-                <span>Python</span><span>Computer Vision</span><span>VR</span><span>Meta Quest</span>
-              </div>
-            </article>
-
-            <article class="project-card project-card-impact">
-              <div class="project-top">
-                <span class="project-number amber">04</span>
-                <p>Educação e impacto</p>
-              </div>
-              <h3>Tocando em Frente</h3>
-              <p class="project-description">
-                ONG liderada por jovens que expande oportunidades educacionais para estudantes de escolas
-                públicas de baixa renda em comunidades rurais e regiões pouco atendidas do Brasil.
-              </p>
-              <div class="contribution">
-                <span>Minha contribuição</span>
-                <p>
-                  Como voluntário no time de dados, ajudo a fortalecer uma iniciativa que conecta educação,
-                  aprendizagem extracurricular e referências inspiradoras para transformar trajetórias.
-                </p>
-              </div>
-              <div class="tags tags-dark">
-                <span>Voluntariado</span><span>Dados</span><span>Educação</span><span>Impacto social</span>
-              </div>
-            </article>
-
-            <article class="project-card project-card-impact">
-              <div class="project-top">
-                <span class="project-number mint">05</span>
-                <p>Engenharia e escala</p>
-              </div>
-              <h3>Pix do Milhão</h3>
-              <p class="project-description">
-                Experiência em campanhas promocionais de grande alcance, com páginas responsivas e entradas
-                por QR code para parceiros e artistas com mais de um milhão de seguidores.
-              </p>
-              <div class="contribution">
-                <span>Minha contribuição</span>
-                <p>
-                  Desenvolvi as páginas das campanhas e implementei um agregador de mensagens que valida,
-                  roteia e processa eventos de forma assíncrona, evita duplicidades e acompanha entregas.
-                </p>
-              </div>
-              <div class="tags tags-dark">
-                <span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>Redis Streams</span><span>Next.js</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="competencias" class="section surface-warm">
-        <div class="container">
-          <div class="section-heading">
-            <p class="kicker mint-dark">04 · Competências</p>
-            <h2>Uma base técnica pronta para crescer</h2>
-          </div>
-          <div class="skills-grid section-content">
-            <article>
-              <h3>Engenharia de software</h3><p>Minha principal frente técnica.</p>
-              <ul><li>Node.js</li><li>Python e FastAPI</li><li>TypeScript</li><li>GraphQL</li><li>REST APIs</li><li>PostgreSQL</li><li>Redis Streams</li><li>Testes automatizados</li></ul>
-            </article>
-            <article>
-              <h3>Interfaces e produto</h3><p>Interfaces claras e acessíveis.</p>
-              <ul><li>React</li><li>Next.js</li><li>JavaScript e TypeScript</li><li>PHP</li><li>HTML e CSS</li><li>Fluxos de aplicação</li><li>Acessibilidade</li><li>Integração com APIs</li></ul>
-            </article>
-            <article>
-              <h3>Fundamentos</h3><p>Base forte para resolver problemas.</p>
-              <ul><li>C++</li><li>Python</li><li>Java</li><li>Algoritmos</li><li>Estruturas de dados</li><li>Complexidade</li></ul>
-            </article>
-            <article>
-              <h3>Ferramentas</h3><p>Ambiente de desenvolvimento.</p>
-              <ul><li>Docker</li><li>Git</li><li>Linux</li><li>SQLAlchemy e Alembic</li><li>Brevo e n8n</li><li>Modelagem de dados</li><li>Pesquisa aplicada</li></ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="recognition">
-        <div class="container recognition-grid">
-          <div>
-            <p class="kicker">05 · Reconhecimento</p>
-            <h2>Resultados que mostram consistência.</h2>
-          </div>
-          <div class="achievement-list">
-            <article><strong>Bronze</strong><div><h3>Olimpíada Paraibana de Informática</h3><p>Categoria Sênior · 2025</p></div></article>
-            <article><strong>Menção honrosa</strong><div><h3>ICPC South America Brazil</h3><p>Primeira fase · 2025</p></div></article>
-            <article><strong>Prata</strong><div><h3>Kangaroo Mathematics Competition</h3><p>Competição internacional de matemática</p></div></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="education">
-        <div class="container education-grid">
-          <div>
-            <p class="kicker mint-dark">Formação</p>
-            <h2>Bacharelado em Ciência da Computação</h2>
-            <p class="university">Universidade Federal da Paraíba · UFPB</p>
-            <p class="period">Fev 2023 · Abr 2027</p>
-          </div>
-          <div class="education-note">
-            <p class="quote">“Aprender rápido, comunicar com clareza e construir com responsabilidade.”</p>
-            <p>
-              Interesses atuais: engenharia de software, sistemas distribuídos, acessibilidade, visão
-              computacional e experiências imersivas.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="contato" class="contact-section">
-        <div class="container contact-content">
-          <p class="kicker mint">Vamos conversar</p>
-          <div class="contact-grid">
+        <div class="timeline">
+          <article class="timeline-row">
+            <p class="period"><time datetime="2026-08">Ago 2026</time> – atual</p>
             <div>
-              <h2>Procurando alguém que aprende rápido e entrega com cuidado?</h2>
-              <p class="contact-lead">
-                Estou aberto a oportunidades em engenharia de software e pesquisa aplicada.
-              </p>
+              <h3>Engenheiro de Software Jr.</h3>
+              <p class="organization">Pix do Milhão</p>
             </div>
-            <div class="contact-links">
-              <a href="mailto:matheus_lobato_macedo@hotmail.com"><span><small>E-mail</small>matheus_lobato_macedo@hotmail.com</span><strong>↗</strong></a>
-              <a href="https://www.linkedin.com/in/matheusslobato" target="_blank" rel="noreferrer"><span><small>LinkedIn</small>in/matheusslobato</span><strong>↗</strong></a>
-              <a href="https://github.com/MatheusLobDev" target="_blank" rel="noreferrer"><span><small>GitHub</small>MatheusLobDev</span><strong>↗</strong></a>
-              <a href="tel:+5583999901188"><span><small>Telefone</small>(83) 99990-1188</span><strong>↗</strong></a>
+            <p>Projeto APIs REST com Python e FastAPI, definindo endpoints, contratos de integração, validação, autenticação e tratamento de erros. Desenvolvi os sistemas de emissão fiscal e agregação de mensagens.</p>
+          </article>
+
+          <article class="timeline-row">
+            <p class="period"><time datetime="2026-06">Jun 2026</time> – atual</p>
+            <div>
+              <h3>Desenvolvedor Full-Stack</h3>
+              <p class="organization">LAVID · UFPB</p>
             </div>
-          </div>
-          <footer><span>© 2026 Matheus Lobato</span><span>João Pessoa · Paraíba · Brasil</span></footer>
+            <p>Desenvolvo e mantenho o Autism Guide no Laboratório de Aplicações de Vídeo Digital, contribuindo com interfaces e fluxos de avaliação de aplicativos.</p>
+          </article>
+
+          <article class="timeline-row">
+            <p class="period"><time datetime="2026-02">Fev 2026</time> – <time datetime="2026-11">nov 2026</time></p>
+            <div>
+              <h3>Desenvolvedor Back-End</h3>
+              <p class="organization">SisEnex · Lumo Lab</p>
+            </div>
+            <p>Desenvolvi e mantive APIs em Node.js, PostgreSQL e GraphQL. Reestruturei o back-end com foco em desempenho, escalabilidade e manutenção.</p>
+          </article>
+
+          <article class="timeline-row">
+            <p class="period"><time datetime="2025-08">Ago 2025</time> – <time datetime="2026-08">ago 2026</time></p>
+            <div>
+              <h3>Pesquisador em Visão Computacional e VR</h3>
+              <p class="organization">LabTEVE</p>
+            </div>
+            <p>Pesquisei detecção, rastreamento e sincronização de objetos em realidade virtual para melhorar a consistência espacial e a precisão das interações no Meta Quest.</p>
+          </article>
         </div>
-        <span class="contact-accent" aria-hidden="true"></span>
-      </section>
-    </main>
-  </body>
+
+        <div class="volunteer" id="voluntariado">
+          <h3>Voluntariado</h3>
+          <div class="volunteer-grid">
+            <article class="volunteer-card">
+              <p class="period"><time datetime="2026-08">Ago 2026</time> – atual</p>
+              <h4>Membro da equipe de dados</h4>
+              <p class="organization">ONG Tocando em Frente</p>
+              <p>Atuo na equipe de dados de uma ONG que amplia oportunidades educacionais para estudantes de baixa renda da rede pública em comunidades rurais e regiões pouco atendidas. A organização recebeu o Prêmio LED 2024 na categoria Estudantes.</p>
+            </article>
+
+            <article class="volunteer-card">
+              <p class="period"><time datetime="2025-10">Out 2025</time> – <time datetime="2026-08">ago 2026</time></p>
+              <h4>Professor de Programação Competitiva</h4>
+              <p class="organization">PACODE · UFPB</p>
+              <p>Mentorei estudantes iniciantes e intermediários em algoritmos, estruturas de dados e análise de complexidade. Organizei competições, selecionei problemas, preparei materiais e ministrei aulas sobre técnicas algorítmicas e estratégias de otimização.</p>
+              <a class="text-link" href="https://pacode.ci.ufpb.br">Visitar site do PACODE</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="competencias" aria-labelledby="competencias-titulo">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="competencias-titulo">Competências</h2>
+        </div>
+        <dl class="skill-grid">
+          <div>
+            <dt>Linguagens</dt>
+            <dd>C++, Python, JavaScript, TypeScript, Java e PHP</dd>
+          </div>
+          <div>
+            <dt>Back-end e dados</dt>
+            <dd>Node.js, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Redis Streams, GraphQL e APIs REST</dd>
+          </div>
+          <div>
+            <dt>Front-end</dt>
+            <dd>React, Next.js, HTML, CSS e Tailwind CSS</dd>
+          </div>
+          <div>
+            <dt>Infraestrutura e ferramentas</dt>
+            <dd>Docker, Git, Linux, testes automatizados, Brevo, n8n, httpx, Uvicorn e Nginx</dd>
+          </div>
+          <div>
+            <dt>Idiomas</dt>
+            <dd>Português nativo, inglês avançado e espanhol intermediário</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section background" aria-label="Formação e conquistas">
+      <div class="container background-grid">
+        <div id="formacao">
+          <h2>Formação</h2>
+          <div class="education-card">
+            <p class="period"><time datetime="2023-02">Fev 2023</time> – <time datetime="2027-12">dez 2027</time> (previsão)</p>
+            <h3>Bacharelado em Ciência da Computação</h3>
+            <p class="organization">Universidade Federal da Paraíba · UFPB</p>
+          </div>
+        </div>
+        <div id="conquistas">
+          <h2>Conquistas</h2>
+          <ul class="achievements">
+            <li><strong>Medalha de bronze</strong><span>Olimpíada Paraibana de Informática · Sênior, 2025</span></li>
+            <li><strong>Menção honrosa</strong><span>ICPC South America Brazil · Primeira fase, 2025</span></li>
+            <li><strong>Medalha de prata</strong><span>Competição de Matemática Canguru</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contato">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Contato</h2>
+          <p>Matheus Lobato · João Pessoa, PB</p>
+        </div>
+        <address class="contact-links">
+          <a href="mailto:matheus_lobato_macedo@hotmail.com">matheus_lobato_macedo@hotmail.com</a>
+          <a href="tel:+5583999901188">+55 83 99990-1188</a>
+          <a href="https://www.linkedin.com/in/matheusslobato">LinkedIn</a>
+          <a href="https://github.com/MatheusLobDev">GitHub</a>
+        </address>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Matheus Lobato</span>
+        <a href="#top">Voltar ao início</a>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
